@@ -31,7 +31,7 @@ jobs:
             git config --global user.name "${{ github.event.inputs.git_id }}"
             git config --global user.email "${{ github.event.inputs.git_mail }}"
             git clone https://github.com/ghostji00/Tata-Sky-IPTV
-            cd Tata-Sky-IPTV /code_samples/
+            cd Tata-Sky-IPTV/code_samples/
             sudo apt install expect -y >> /dev/null 2>&1
             wget https://gist.githubusercontent.com/Nageshwar128/25e2fcd571fcb9466c3d95b35ba36fa3/raw/script.exp >> /dev/null 2>&1
             chmod 755 script.exp
